@@ -1,0 +1,9 @@
+.zimagery {
+    background-image: url("./pizza3.jpg");
+    background-size: cover;
+}
+
+#sticky_header #header{
+  border: none;
+  background: 0 !important;
+}

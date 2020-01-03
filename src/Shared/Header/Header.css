@@ -1,0 +1,12 @@
+
+.signin-link.ui.button {
+    background-color: transparent!important;
+    color: #fff;
+}
+
+#signup-link.signup-link {
+    background: 0 0!important;
+    border: 2px solid #fff!important;
+    border-radius: 3px!important;
+    color: #fff !important;
+}

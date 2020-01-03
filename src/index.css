@@ -1,0 +1,71 @@
+@import './zomato.css';
+
+body {
+  /* margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body { */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: #F3F3F3;
+  min-width: 320px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 14px;
+  line-height: 1.4285em;
+  color: #33373D;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.ui.button {
+  cursor: pointer;
+  display: inline-block;
+  min-height: 1em;
+  outline: 0;
+  border: none;
+  vertical-align: baseline;
+  background: #E0E1E2;
+  color: rgba(0,0,0,.6);
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  margin: 0 .25em 0 0;
+  padding: .78571429em 1.5em;
+  text-transform: none;
+  text-shadow: none;
+  line-height: 1em;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  border-radius: .28571429rem;
+  box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 #e7e7e7 inset;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  will-change: '';
+  -webkit-tap-highlight-color: transparent;
+  -webkit-transition: background .1s ease 0s;
+  transition: background .1s ease 0s;
+}
+
+.breadcrumb {
+  padding: 0px;
+  background-color: #F3F3F3;
+}
+
+.ui.mini.breadcrumb {
+  font-size: .8rem !important;
+  font-weight: bold;
+}
+
+.breadcrumb .icon {
+  font-size: .5rem !important;
+}
