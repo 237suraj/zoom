@@ -1,0 +1,11 @@
+.clearfix:after, .clearfix:before, .hp-wrapper:after, .hp-wrapper:before, .row:after, .row:before, .wrapper:after, .wrapper:before {
+    content: " ";
+    display: table;
+}
+.clearfix:after, .hp-wrapper:after, .row:after, .wrapper:after {
+    clear: both;
+}
+.clearfix:after, .clearfix:before, .hp-wrapper:after, .hp-wrapper:before, .row:after, .row:before, .wrapper:after, .wrapper:before {
+    content: " ";
+    display: table;
+}
